@@ -8,7 +8,7 @@
 
 int main ()
 {
-  using namespace std;
-  using namespace spimpl;
+  spimpl::unique_impl_ptr<bool> t = spimpl::make_unique_impl<bool>(true);
+  assert(t);
 
 }
