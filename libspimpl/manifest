@@ -3,11 +3,11 @@ name: libspimpl
 version: 1.2.0-a.0.z
 type: lib,binless
 language: c++
-summary: spimpl C++ library
+summary: A single-header C++ library for PIMPLs without having to implement any special member functions
 license: BSL-1.0 ; Boost Software License 1.0.
+description-file: README.md
 package-description-file: PACKAGE-README.md
-url: https://example.org/upstream
-email: upstream@example.org
+url: https://github.com/oliora/samples/
 package-url: https://github.com/build2-packaging/libspimpl
 package-email: packaging@build2.org ; Mailing list.
 depends: * build2 >= 0.16.0
