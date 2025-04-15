@@ -1,7 +1,7 @@
 # libspimpl - <SUMMARY>
 
-This is a `build2` package repository for [`libspimpl`](https://<UPSTREAM-URL>),
-a <SUMMARY-OF-FUNCTIONALITY>.
+This is a `build2` package for the [`spimpl`](https://github.com/oliora/samples/)
+C++ header library. It provides a single-header C++ library for PIMPLs without having to implement any special member functions as described in [`oliora's blog`](https://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html).
 
 This file contains setup instructions and other details that are more
 appropriate for development rather than consumption. If you want to use
