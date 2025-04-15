@@ -1,7 +1,7 @@
 # libspimpl - A C++ library
 
-This is a `build2` package for the [`<UPSTREAM-NAME>`](https://<UPSTREAM-URL>)
-C++ library. It provides <SUMMARY-OF-FUNCTIONALITY>.
+This is a `build2` package for the [`spimpl`](https://github.com/oliora/samples/)
+C++ header library. It provides a single-header C++ library for PIMPLs without having to implement any special member functions as described in [`oliora's blog`](https://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html).
 
 
 ## Usage
@@ -19,24 +19,3 @@ Then import the library in your `buildfile`:
 import libs = libspimpl%lib{<TARGET>}
 ```
 
-
-## Importable targets
-
-This package provides the following importable targets:
-
-```
-lib{<TARGET>}
-```
-
-<DESCRIPTION-OF-IMPORTABLE-TARGETS>
-
-
-## Configuration variables
-
-This package provides the following configuration variables:
-
-```
-[bool] config.libspimpl.<VARIABLE> ?= false
-```
-
-<DESCRIPTION-OF-CONFIG-VARIABLES>
