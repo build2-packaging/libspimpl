@@ -1,0 +1,6 @@
+$out_root/
+{
+  include include/spimpl/
+}
+
+export $out_root/include/spimpl/$import.target

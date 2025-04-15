@@ -1,0 +1,7 @@
+project = libspimpl
+
+using version
+using config
+using test
+using install
+using dist
