@@ -3,7 +3,7 @@ name: libspimpl
 version: 1.2.0-a.0.z
 type: lib,binless
 language: c++
-summary: A single-header C++ library for PIMPLs without having to implement any special member functions
+summary: PIMPLs without having to implement any special member functions
 license: BSL-1.0 ; Boost Software License 1.0.
 description-file: README.md
 package-description-file: PACKAGE-README.md

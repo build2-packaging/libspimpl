@@ -20,5 +20,4 @@ lib{spimpl}:
 hxx{*}:
 {
   install         = include/spimpl/
-  install.subdirs = true
 }
